@@ -1,0 +1,906 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
+
+    <title>Music App </title>
+</head>
+<body>
+
+    <header id="header">
+        <!-- ---------NAVIGATION------------------- -->
+
+        <nav id="navigation">
+            <div class="nav-btn">
+                <div class="nav-logo">
+                    <a href="#">
+                        <span class="material-icons logo">audiotrack</span>
+                    </a>
+                </div>
+                    
+                <div class="nav-home">
+                    <a href="#">
+                        <span class="material-icons icon">home</span>
+                        <span>Home</span>
+                    </a>
+                </div>
+
+                <div class="nav-music">
+                    <span class="material-icons icon">headphones</span>
+                    <span>My music</span>
+                </div>
+
+            </div>
+
+            <form action="#" class="search">
+                <button class="search-button">
+                    <span class="material-icons search-icon">search</span>
+                </button >
+                <input type="text" class="search-input" placeholder="search">
+                <button class="mic-button">
+                    <span class="material-icons mic-icon">mic</span>
+                </button>
+            </form>
+
+            <div class="user-nav">
+                <div class="user-nav-box">
+                    <span class="material-icons icon notification-icon">notifications</span>
+                    <span class="dot"></span>
+                </div>
+
+                <div class="user-img">
+                    <img src="images/person-24px.svg" alt="user-photo" class="user-photo">
+
+                </div>
+            </div>
+    
+        </nav>
+
+    </header>
+
+    <!-- ----------------MAIN------------------------ -->
+
+    <main id="main">
+        <div id="container">
+            <!-- ---------------CAROUSEL-------------------- -->
+            <div id="carousel">
+                <input type="radio" name="slide" id="s1">
+                <input type="radio" name="slide" id="s2">
+                <input type="radio" name="slide" id="s3" checked>
+                <input type="radio" name="slide" id="s4">
+                <input type="radio" name="slide" id="s5">
+
+                <label for="s1" id="slide1">
+                    <img src="images/img1.jpg" alt="img1" class="image">
+                </label>
+
+                <label for="s2" id="slide2">
+                    <img src="images/img2.jpg" alt="img2" class="image">
+                </label>
+
+                <label for="s3" id="slide3">
+                    <img src="images/img3.jpg" alt="img3" class="image">
+                </label>
+
+                <label for="s4" id="slide4">
+                    <img src="images/img4.jpg" alt="img4" class="image">
+                </label>
+
+                <label for="s5" id="slide5">
+                    <img src="images/img5.jpg" alt="img5" class="image">
+                </label>
+
+            </div>
+
+            <!-- ----------RELEASE SECTION----------------- -->
+            
+            <div id="release">
+                <div class="content">
+                    <div>
+                        <h3 class="heading-secondary">latest release</h3>
+                    </div>
+                    <div class="release-block">
+
+                        <div class="block">
+                        <div class="block-img">
+                            <a href="#footer" class="img-link">
+                                <img src="images/block-image1.jpg" alt="image" class="image-block">
+                                <span class="material-icons play">play_arrow</span>
+                                <span class="material-icons pause">pause</span>
+                            </a>
+                        </div>
+                        <div class="block-text">
+                            <span class="name-text song">Onism</span>
+                            <span class="date">mar 15,2021</span>
+                        </div>
+                        <div class="block-toggle">
+                            <input type="checkbox" class="toggle-checkbox" id="toggle-check">
+                            <label for="toggle-check">
+                                <span class="material-icons toggle">more_horiz</span>
+                            </label>
+                            <span class="time">4:44</span>
+                            <div class="drop-list">
+                                <ul class="list-item">
+                                    <li>
+                                        <span class="material-icons">play_arrow</span>
+                                        play now
+                                    </li>
+                                    <li>
+                                        <span class="material-icons">add</span>
+                                        add to queue
+                                    </li>
+                                    <li>
+                                        <span class="material-icons">playlist_add</span>
+                                        add to favourites
+                                    </li>
+                                    <li>
+                                        <span class="material-icons">error</span>
+                                        get info
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        </div>
+
+                        <div class="block">
+                        <div class="block-img">
+                            <a href="#footer" class="img-link">
+                                <img src="images/block-image1.jpg" alt="image" class="image-block">
+                                <span class="material-icons play">play_arrow</span>
+                                <span class="material-icons pause">pause</span>
+                            </a>
+                        </div>
+                        <div class="block-text">
+                            <span class="name-text song">Onism</span>
+                            <span class="date">mar 15,2021</span>
+                        </div>
+                        <div class="block-toggle">
+                            <input type="checkbox" class="toggle-checkbox" id="toggle-check2">
+                            <label for="toggle-check2">
+                                <span class="material-icons toggle">more_horiz</span>
+                            </label>
+                            <span class="time">4:44</span>
+                            <div class="drop-list">
+                                <ul class="list-item">
+                                    <li>
+                                        <span class="material-icons">play_arrow</span>
+                                        play now
+                                    </li>
+                                    <li>
+                                        <span class="material-icons">add</span>
+                                        add to queue
+                                    </li>
+                                    <li>
+                                        <span class="material-icons">playlist_add</span>
+                                        add to favourites
+                                    </li>
+                                    <li>
+                                        <span class="material-icons">error</span>
+                                        get info
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        </div>
+                    
+                        <div class="block">
+                        <div class="block-img">
+                            <a href="#footer" class="img-link">
+                                <img src="images/block-image1.jpg" alt="image" class="image-block">
+                                <span class="material-icons play">play_arrow</span>
+                                <span class="material-icons pause">pause</span>
+                            </a>
+                        </div>
+                        <div class="block-text">
+                            <span class="name-text song">Onism</span>
+                            <span class="date">mar 15,2021</span>
+                        </div>
+                        <div class="block-toggle">
+                            <input type="checkbox" class="toggle-checkbox" id="toggle-check3">
+                            <label for="toggle-check3">
+                                <span class="material-icons toggle">more_horiz</span>
+                            </label>
+                            <span class="time">4:44</span>
+                            <div class="drop-list">
+                                <ul class="list-item">
+                                    <li>
+                                        <span class="material-icons">play_arrow</span>
+                                        play now
+                                    </li>
+                                    <li>
+                                        <span class="material-icons">add</span>
+                                        add to queue
+                                    </li>
+                                    <li>
+                                        <span class="material-icons">playlist_add</span>
+                                        add to favourites
+                                    </li>
+                                    <li>
+                                        <span class="material-icons">error</span>
+                                        get info
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        </div>
+                   
+                        <div class="block">
+                        <div class="block-img">
+                            <a href="#footer" class="img-link">
+                                <img src="images/block-image1.jpg" alt="image" class="image-block">
+                                <span class="material-icons play">play_arrow</span>
+                                <span class="material-icons pause">pause</span>
+                            </a>
+                        </div>
+                        <div class="block-text">
+                            <span class="name-text song">Onism</span>
+                            <span class="date">mar 15,2021</span>
+                        </div>
+                        <div class="block-toggle">
+                            <input type="checkbox" class="toggle-checkbox" id="toggle-check4">
+                            <label for="toggle-check4">
+                                <span class="material-icons toggle">more_horiz</span>
+                            </label>
+                            <span class="time">4:44</span>
+                            <div class="drop-list">
+                                <ul class="list-item">
+                                    <li>
+                                        <span class="material-icons">play_arrow</span>
+                                        play now
+                                    </li>
+                                    <li>
+                                        <span class="material-icons">add</span>
+                                        add to queue
+                                    </li>
+                                    <li>
+                                        <span class="material-icons">playlist_add</span>
+                                        add to favourites
+                                    </li>
+                                    <li>
+                                        <span class="material-icons">error</span>
+                                        get info
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- ----------POPULAR ARTIST SECTION------------------------ -->
+
+            <div id="popular-artist">
+                <div class="content">
+                    <div>
+                        <h3 class="heading-secondary">popular artist</h3>
+                    </div>
+                    <div class="artist-block">
+
+                        <div class="artist">
+                            <div class="artist-img-block">
+                                <a href="./playlistScreen/playlist.html" >
+                                    <img src="images/alanwalker.jpg" alt="artist1" class="artist-img">
+                                    
+                                    <span class="material-icons">
+                                        play_circle_outline
+                                    </span>
+                                </a>
+                                    
+                            </div>
+                            <div class="artist-name">
+                                <span>alan walker</span> 
+                            </div>   
+                        </div>
+
+                        <div class="artist">
+                            <div class="artist-img-block">
+                                <a href="./playlistScreen/playlist.html" >
+                                    <img src="images/edsheeran.jpg" alt="artist1" class="artist-img">
+                                    
+                                    <span class="material-icons">
+                                        play_circle_outline
+                                    </span>
+                                </a>
+                                   
+                            </div>
+                            <div class="artist-name">
+                                <span>ed sheeran</span> 
+                            </div>   
+                        </div>
+
+                        <div class="artist">
+                            <div class="artist-img-block">
+                                <a href="./playlistScreen/playlist.html" >
+                                    <img src="images/imaginedragons.jpg" alt="artist1" class="artist-img">
+                                    
+                                    <span class="material-icons">
+                                        play_circle_outline
+                                    </span>
+                                </a>
+                                    
+                            </div>
+                            <div class="artist-name">
+                                <span>imagine dragons</span> 
+                            </div>   
+                        </div>
+
+                        <div class="artist">
+                            <div class="artist-img-block">
+                                <a href="./playlistScreen/playlist.html" >
+                                    <img src="images/coldplay.jpg" alt="artist1" class="artist-img">
+                                    
+                                    <span class="material-icons">
+                                        play_circle_outline
+                                    </span>
+                                </a>
+                                
+                            
+                            </div>
+                            <div class="artist-name">
+                                <span>coldplay</span> 
+                            </div>   
+                        </div>
+
+                        <div class="artist">
+                            <div class="artist-img-block">
+                                <a href="./playlistScreen/playlist.html" >
+                                    <img src="images/maroon5.jpg" alt="artist5" class="artist-img">
+                                    
+                                    <span class="material-icons">
+                                        play_circle_outline
+                                    </span>
+                                </a>
+                               
+                                    
+                              
+                            </div>
+                            <div class="artist-name">
+                                <span>maroon 5</span> 
+                            </div>   
+                        </div>
+
+                        <div class="artist">
+                            <div class="artist-img-block">
+                                <a href="./playlistScreen/playlist.html" >
+                                    <img src="images/charlieputh.jpeg" alt="artist6" class="artist-img">
+                                    
+                                    <span class="material-icons">
+                                        play_circle_outline
+                                    </span>
+                                </a>
+                                    
+                            </div>
+                            <div class="artist-name">
+                                <span>charlie puth</span> 
+                            </div>   
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- ----------STATIONS SECTION------------------------ -->
+
+            <div id="stations">
+                <div class="content">
+                    <div class="station-back">
+                        <div class="station-cards">
+                            <div class="one"></div>
+                            <div class=two></div>
+                            <div class="three">
+                                <span><img src="images/disc.png" alt="disc"></span>
+                                <span>Stations</span>
+                            </div>
+                        </div>
+
+                        <div class="station-love">
+                            <img src="images/love.jpg" alt="love" class="station-img">
+                            <span>love</span>
+                        </div>
+
+                        <div class="station-love">
+                            <img src="images/retro.jpg" alt="love" class="station-img">
+                            <span>retro</span>
+                        </div>
+
+                        <div class="station-love">
+                            <img src="images/chill.jpg" alt="love" class="station-img">
+                            <span>chill</span>
+                        </div>
+
+                        <div class="station-love">
+                            <img src="images/workout.jpeg" alt="love" class="station-img">
+                            <span>workout</span>
+                        </div>
+
+                        <div class="station-love">
+                            <img src="images/rock.jpeg" alt="love" class="station-img">
+                            <span>rock</span>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+
+            <!-- ----------MUSIC TYPE SECTION------------------------ -->
+
+            <div id="music-type">
+                <div class="content">
+                    <div class="music">
+
+                        <div class="party">
+                            <img src="images/party.jpg" alt="party image" class="music-img">
+                            <span class="music-name">party</span>
+                        </div>
+
+                        <div class="party">
+                            <img src="images/electronic.jpg" alt="electronic image" class="music-img">
+                            <span class="music-name">electronic</span>
+                        </div>
+
+                        <div class="party">
+                            <img src="images/roadtrip.jpg" alt="trip image" class="music-img">
+                            <span class="music-name">road trip</span>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- ----------LATEST ENGLISH SECTION------------------------ -->
+
+            <div id="latest-english">
+                <div class="content">
+
+                    <div>
+                        <h3 class="heading-secondary">latest english</h3>
+                    </div>
+                    <div class="english-song-block">
+                        
+                        <div class="english-song">
+                            <div class="song-img-block">
+                                <img src="images/faded.jpg" alt="song1" class="song-img">
+                                <div class="song-icon">
+                                    <span class="material-icons">add</span>
+                                    <span class="material-icons">play_circle_outline</span>
+                                    <span class="material-icons">more_horiz</span>
+                                </div>
+                            </div>
+                            <div class="song-name-block">
+                                <span class="song-name song">faded</span>
+                                <span class="date">mar 15,2021</span>
+                            </div>
+                        </div>
+
+                        <div class="english-song">
+                            <div class="song-img-block">
+                                <img src="images/memories.jpg" alt="song1" class="song-img">
+                                <div class="song-icon">
+                                    <span class="material-icons">add</span>
+                                    <span class="material-icons">play_circle_outline</span>
+                                    <span class="material-icons">more_horiz</span>
+                                </div>
+                            </div>
+                            <div class="song-name-block">
+                                <span class="song-name song">memories</span>
+                                <span class="date">mar 15,2021</span>
+                            </div>
+                        </div>
+
+                        <div class="english-song">
+                            <div class="song-img-block">
+                                <img src="images/attention.png" alt="song1" class="song-img">
+                                <div class="song-icon">
+                                    <span class="material-icons">add</span>
+                                    <span class="material-icons">play_circle_outline</span>
+                                    <span class="material-icons">more_horiz</span>
+                                </div>
+                            </div>
+                            <div class="song-name-block">
+                                <span class="song-name song">attention</span>
+                                <span class="date">mar 15,2021</span>
+                            </div>
+                        </div>
+
+                        <div class="english-song">
+                            <div class="song-img-block">
+                                <img src="images/withoutme.png" alt="song1" class="song-img">
+                                <div class="song-icon">
+                                    <span class="material-icons">add</span>
+                                    <span class="material-icons">play_circle_outline</span>
+                                    <span class="material-icons">more_horiz</span>
+                                </div>
+                            </div>
+                            <div class="song-name-block">
+                                <span class="song-name song">without me</span>
+                                <span class="date">mar 15,2021</span>
+                            </div>
+                        </div>
+
+                        <div class="english-song">
+                            <div class="song-img-block">
+                                <img src="images/perfect.jpg" alt="song1" class="song-img">
+                                <div class="song-icon">
+                                    <span class="material-icons">add</span>
+                                    <span class="material-icons">play_circle_outline</span>
+                                    <span class="material-icons">more_horiz</span>
+                                </div>
+                            </div>
+                            <div class="song-name-block">
+                                <span class="song-name song">perfect</span>
+                                <span class="date">mar 15,2021</span>
+                            </div>
+                        </div>
+
+                        <div class="english-song">
+                            <div class="song-img-block">
+                                <img src="images/dancemonkey.jpg" alt="song1" class="song-img">
+                                <div class="song-icon">
+                                    <span class="material-icons">add</span>
+                                    <span class="material-icons">play_circle_outline</span>
+                                    <span class="material-icons">more_horiz</span>
+                                </div>
+                            </div>
+                            <div class="song-name-block">
+                                <span class="song-name song">dance monkey</span>
+                                <span class="date">mar 15,2021</span>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- ----------LATEST HINDI SECTION------------------------ -->
+
+            <div id="latest-hindi">
+            <div class="content">
+
+                <div>
+                    <h3 class="heading-secondary">latest hindi</h3>
+                </div>
+                <div class="hindi-song-block">
+                    
+                    <div class="hindi-song">
+                        <div class="song-img-block">
+                            <img src="images/faded.jpg" alt="song1" class="song-img">
+                            <div class="song-icon">
+                                <span class="material-icons">add</span>
+                                <span class="material-icons">play_circle_outline</span>
+                                <span class="material-icons">more_horiz</span>
+                            </div>
+                        </div>
+                        <div class="song-name-block">
+                            <span class="song-name song">faded</span>
+                            <span class="date">mar 15,2021</span>
+                        </div>
+                    </div>
+
+                    <div class="hindi-song">
+                        <div class="song-img-block">
+                            <img src="images/memories.jpg" alt="song1" class="song-img">
+                            <div class="song-icon">
+                                <span class="material-icons">add</span>
+                                <span class="material-icons">play_circle_outline</span>
+                                <span class="material-icons">more_horiz</span>
+                            </div>
+                        </div>
+                        <div class="song-name-block">
+                            <span class="song-name song">memories</span>
+                            <span class="date">mar 15,2021</span>
+                        </div>
+                    </div>
+
+                    <div class="hindi-song">
+                        <div class="song-img-block">
+                            <img src="images/attention.png" alt="song1" class="song-img">
+                            <div class="song-icon">
+                                <span class="material-icons">add</span>
+                                <span class="material-icons">play_circle_outline</span>
+                                <span class="material-icons">more_horiz</span>
+                            </div>
+                        </div>
+                        <div class="song-name-block">
+                            <span class="song-name song">attention</span>
+                            <span class="date">mar 15,2021</span>
+                        </div>
+                    </div>
+
+                    <div class="hindi-song">
+                        <div class="song-img-block">
+                            <img src="images/withoutme.png" alt="song1" class="song-img">
+                            <div class="song-icon">
+                                <span class="material-icons">add</span>
+                                <span class="material-icons">play_circle_outline</span>
+                                <span class="material-icons">more_horiz</span>
+                            </div>
+                        </div>
+                        <div class="song-name-block">
+                            <span class="song-name song">without me</span>
+                            <span class="date">mar 15,2021</span>
+                        </div>
+                    </div>
+
+                    <div class="hindi-song">
+                        <div class="song-img-block">
+                            <img src="images/perfect.jpg" alt="song1" class="song-img">
+                            <div class="song-icon">
+                                <span class="material-icons">add</span>
+                                <span class="material-icons">play_circle_outline</span>
+                                <span class="material-icons">more_horiz</span>
+                            </div>
+                        </div>
+                        <div class="song-name-block">
+                            <span class="song-name song">perfect</span>
+                            <span class="date">mar 15,2021</span>
+                        </div>
+                    </div>
+
+                    <div class="hindi-song">
+                        <div class="song-img-block">
+                            <img src="images/dancemonkey.jpg" alt="song1" class="song-img">
+                            <div class="song-icon">
+                                <span class="material-icons">add</span>
+                                <span class="material-icons">play_circle_outline</span>
+                                <span class="material-icons">more_horiz</span>
+                            </div>
+                        </div>
+                        <div class="song-name-block">
+                            <span class="song-name song">dance monkey</span>
+                            <span class="date">mar 15,2021</span>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+            </div>
+
+        </div>
+
+
+
+        <!-- ------------------------------------------------------ -->
+        <!-- ----------------ASIDE SECTION------------------------- -->
+
+        <div id="aside">
+            <div id="aside-content">
+
+                <div class="playlist-heading">
+                    <h2 class="heading-primary">
+                        Playlist
+                    </h2>
+                    <a href="#queue-list" class="play-queue">
+                        <span class="queue">Queue</span>
+                        <span class="material-icons">expand_more</span>
+                        <div class="queue-option" id="queue-list">
+                            <ul class="options">
+                                <li class="items">
+                                    <a href="#">
+                                        <span class="material-icons">playlist_play</span>
+                                        <span>Playlists</span>
+                                    </a>
+                                </li>
+                                <li class="items">
+                                    <a href="#">
+                                        <span class="material-icons">favorite</span>
+                                        <span>Favourite Songs</span>
+                                    </a>
+                                </li>
+
+                            </ul>
+
+                        </div>
+                    </a>
+                </div>
+    
+                <div class="playlist-content">
+                   <div class="playlist">
+                       <div class="img-block">
+                            <span>01</span>
+                            <img src="images/onmyway.jpg" alt="img1" class="playlist-img">
+                            <span class="material-icons play">play_arrow</span>
+                        </div>
+                        <h4 class="heading-tertiary">
+                                <span class="song">on my way</span>
+                                <span class="musician">alan walker</span>
+                        </h4>
+                        <div class="icon-block">
+                            <span class="material-icons favourite">favorite_border</span>
+                        </div>
+                    </div>
+    
+                    <div class="playlist">
+                        <div class="img-block">
+                             <span>02</span>
+                             <img src="images/happier.jpg" alt="img1" class="playlist-img">
+                             <span class="material-icons play">play_arrow</span>
+                        </div>
+                        <h4 class="heading-tertiary">
+                                <span class="song">happier</span>
+                                <span class="musician">marshmello</span>
+                        </h4>
+                        <div class="icon-block">
+                             <span class="material-icons favourite">favorite_border</span>
+                        </div>
+                    </div>
+    
+                    <div class="playlist">
+                        <div class="img-block">
+                             <span class="material-icons equalizer">graphic_eq</span>
+                             <img src="images/withoutme.png" alt="img1" class="playlist-img">
+                             <span class="material-icons play">play_arrow</span>
+                         </div>
+                         <h4 class="heading-tertiary">
+                            <span class="song">without me</span>
+                            <span class="musician">halsey</span>
+                        </h4>
+                         <div class="icon-block">
+                             <span class="material-icons favourite">favorite_border</span>
+                         </div>
+                    </div>
+    
+                    <div class="playlist">
+                        <div class="img-block">
+                             <span>04</span>
+                             <img src="images/thunder.jpg" alt="img1" class="playlist-img">
+                             <span class="material-icons play">play_arrow</span>
+                         </div>
+                         <h4 class="heading-tertiary">
+                            <span class="song">thunder</span>
+                            <span class="musician">imagine dragons</span>
+                        </h4>
+                         <div class="icon-block">
+                             <span class="material-icons favourite">favorite_border</span>
+                         </div>
+                    </div>
+    
+                    <div class="playlist">
+                        <div class="img-block">
+                             <span>05</span>
+                             <img src="images/dancemonkey.jpg" alt="img1" class="playlist-img">
+                             <span class="material-icons play">play_arrow</span>
+                         </div>
+                         <h4 class="heading-tertiary">
+                            <span class="song">dance monkey</span>
+                            <span class="musician">tones and i</span>
+                        </h4>
+                         <div class="icon-block">
+                             <span class="material-icons favourite">favorite_border</span>
+                         </div>
+                    </div>
+    
+                    <div class="playlist">
+                        <div class="img-block">
+                             <span>06</span>
+                             <img src="images/memories.jpg" alt="img1" class="playlist-img">
+                             <span class="material-icons play">play_arrow</span>
+                         </div>
+                         <h4 class="heading-tertiary">
+                            <span class="song">memories</span>
+                            <span class="musician">maroon 5</span>
+                        </h4>
+                         <div class="icon-block">
+                             <span class="material-icons favourite">favorite_border</span>
+                         </div>
+                    </div>
+    
+                    <div class="playlist">
+                        <div class="img-block">
+                             <span class="material-icons equalizer">graphic_eq</span>
+                             <img src="images/faded.jpg" alt="img1" class="playlist-img">
+                             <span class="material-icons play">play_arrow</span>
+                         </div>
+                         <h4 class="heading-tertiary">
+                            <span class="song">faded</span>
+                            <span class="musician">alan walker</span>
+                        </h4>
+                         <div class="icon-block">
+                             <span class="material-icons favourite">favorite_border</span>
+                         </div>
+                    </div>
+    
+                    <div class="playlist">
+                        <div class="img-block">
+                             <span>08</span>
+                             <img src="images/perfect.jpg" alt="img1" class="playlist-img">
+                             <span class="material-icons play">play_arrow</span>
+                         </div>
+                         <h4 class="heading-tertiary">
+                            <span class="song">perfect</span>
+                            <span class="musician">ed sheeran</span>
+                        </h4>
+                         <div class="icon-block">
+                             <span class="material-icons favourite">favorite_border</span>
+                         </div>
+                    </div>
+    
+                    <div class="playlist">
+                        <div class="img-block">
+                             <span>09</span>
+                             <img src="images/attention.png" alt="img1" class="playlist-img">
+                             <span class="material-icons play">play_arrow</span>
+                         </div>
+                         <h4 class="heading-tertiary">
+                            <span class="song">attention</span>
+                            <span class="musician">charlie puth</span>
+                        </h4>
+                         <div class="icon-block">
+                             <span class="material-icons favourite">favorite_border</span>
+                         </div>
+                    </div>
+                </div>
+
+            </div>
+            
+
+        </div>
+
+    </main>
+
+    <!-- ----------------FOOTER------------------------------------ -->
+    <footer>
+        <div id="footer">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <div class="footer-img-block">
+                        <img src="images/dancemonkey.jpg" alt="footer image" class="footer-img">
+                    </div>
+                    <div class="song-desc-block">
+                        <span class="song-desc">dance monkey by tony and i</span>
+                        <span class="author-name">tony and i</span>
+                    </div>
+                    <div class="footer-icons">
+                        <span class="material-icons">favorite_border</span>
+                        <span class="material-icons">block</span>
+                    </div>
+                </div>
+
+                <div class="footer-controls">
+                    <div class="song-control">
+                        <span class="material-icons">shuffle</span>
+                        <span class="material-icons">skip_previous</span>
+                        <span class="material-icons">pause_circle_outline</span>
+                        <span class="material-icons">skip_next</span>
+                        <span class="material-icons">repeat</span>
+                    </div>
+                    <div class="song-slider">
+                        <span class="time">1:39</span>
+                        <input type="range" min="0" max="100" step="5" value="20" class="slider">
+                        <span class="time">4:40</span>
+                    </div>
+                </div>
+
+                <div class="footer-options">
+                    <div class="control-options">
+                        <span class="material-icons">playlist_play</span>
+                        <span class="material-icons">devices</span>
+                        <span class="material-icons">volume_up</span>
+                        <input type="range" min="0" max="10" step="2" value="4" class="slider slide">
+                        <span class="material-icons">open_in_full</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+</body>
+</html>
